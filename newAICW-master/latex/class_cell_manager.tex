@@ -1,0 +1,201 @@
+\hypertarget{class_cell_manager}{}\section{Cell\+Manager Class Reference}
+\label{class_cell_manager}\index{Cell\+Manager@{Cell\+Manager}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cell_manager_aa0f293fc17a96f4622e5f9d3bec0928f}{Cell\+Manager}} (int x, int y, int height, int width, int row, int column)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cell_manager_a5483d8656d8ef20de0b88c3fdaa44b4c}{Draw\+Cell}} (sf\+::\+Render\+Target \&target)
+\item 
+\mbox{\Hypertarget{class_cell_manager_a5bd4479c2fe3b57f61c365578c34aa59}\label{class_cell_manager_a5bd4479c2fe3b57f61c365578c34aa59}} 
+int \mbox{\hyperlink{class_cell_manager_a5bd4479c2fe3b57f61c365578c34aa59}{getX}} ()
+\begin{DoxyCompactList}\small\item\em Get the X value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a21092ba64a338efd69139ab413451acb}\label{class_cell_manager_a21092ba64a338efd69139ab413451acb}} 
+int \mbox{\hyperlink{class_cell_manager_a21092ba64a338efd69139ab413451acb}{getY}} ()
+\begin{DoxyCompactList}\small\item\em Get the Y value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a9ccf04ba5e359690d85b6a3d309f00b1}\label{class_cell_manager_a9ccf04ba5e359690d85b6a3d309f00b1}} 
+void \mbox{\hyperlink{class_cell_manager_a9ccf04ba5e359690d85b6a3d309f00b1}{set\+Wall}} ()
+\begin{DoxyCompactList}\small\item\em Set wall. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_af8df05e6720c3a35b68ee8ace9494810}\label{class_cell_manager_af8df05e6720c3a35b68ee8ace9494810}} 
+void \mbox{\hyperlink{class_cell_manager_af8df05e6720c3a35b68ee8ace9494810}{set\+Path}} ()
+\begin{DoxyCompactList}\small\item\em Set the path. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_ac883cd92316dab0de2970504b4485d59}\label{class_cell_manager_ac883cd92316dab0de2970504b4485d59}} 
+void \mbox{\hyperlink{class_cell_manager_ac883cd92316dab0de2970504b4485d59}{set\+Goal}} ()
+\begin{DoxyCompactList}\small\item\em Set the goal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_ac105b2613f3c976a86562777d254b486}\label{class_cell_manager_ac105b2613f3c976a86562777d254b486}} 
+void \mbox{\hyperlink{class_cell_manager_ac105b2613f3c976a86562777d254b486}{set\+Start}} ()
+\begin{DoxyCompactList}\small\item\em Set the start node. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a744dc1d4a66749a7e4f6f6489451eb2d}\label{class_cell_manager_a744dc1d4a66749a7e4f6f6489451eb2d}} 
+void \mbox{\hyperlink{class_cell_manager_a744dc1d4a66749a7e4f6f6489451eb2d}{set\+Open}} ()
+\begin{DoxyCompactList}\small\item\em Set open. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a177a7b719bf7d7d5befe87a08debc753}\label{class_cell_manager_a177a7b719bf7d7d5befe87a08debc753}} 
+void \mbox{\hyperlink{class_cell_manager_a177a7b719bf7d7d5befe87a08debc753}{set\+Closed}} ()
+\begin{DoxyCompactList}\small\item\em Set closed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cell_manager_a54ad62f93aa0c271f3ebadbd45a9d941}{set\+Current}} (bool b)
+\begin{DoxyCompactList}\small\item\em Set the current. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cell_manager_a51c6a0e10fecbe8a9e349574e3d1f69c}{lower\+Outcome}} (const \mbox{\hyperlink{class_cell_manager}{Cell\+Manager}} other) const
+\begin{DoxyCompactList}\small\item\em Lower outcome? \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cell_manager_a6243c6c1c190fb440a5b6a0630999307}{score}} (float parent\+Geo\+Score, float currentX, float currentY, int goalX, int goalY)
+\begin{DoxyCompactList}\small\item\em The score of the cell. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a1deabd7112ec2f07c08180afbf7fb44d}\label{class_cell_manager_a1deabd7112ec2f07c08180afbf7fb44d}} 
+\mbox{\hyperlink{class_cell_manager_a1deabd7112ec2f07c08180afbf7fb44d}{$\sim$\+Cell\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_cell_manager_a6d9c7fe60c4cffeb356eb8d04c944c6d}\label{class_cell_manager_a6d9c7fe60c4cffeb356eb8d04c944c6d}} 
+bool \mbox{\hyperlink{class_cell_manager_a6d9c7fe60c4cffeb356eb8d04c944c6d}{m\+\_\+b\+Current}} = true
+\begin{DoxyCompactList}\small\item\em Current cell. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a4621ccf5a556eb4d32bccff37963fe81}\label{class_cell_manager_a4621ccf5a556eb4d32bccff37963fe81}} 
+bool \mbox{\hyperlink{class_cell_manager_a4621ccf5a556eb4d32bccff37963fe81}{m\+\_\+b\+Not\+Right\+Path}} = false
+\begin{DoxyCompactList}\small\item\em Not the right path? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_ad085500cc835dff8db164ecab6ec8a35}\label{class_cell_manager_ad085500cc835dff8db164ecab6ec8a35}} 
+bool \mbox{\hyperlink{class_cell_manager_ad085500cc835dff8db164ecab6ec8a35}{m\+\_\+b\+Path}} = true
+\begin{DoxyCompactList}\small\item\em Path. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a1c7d4f4799002779714caf97b795114c}\label{class_cell_manager_a1c7d4f4799002779714caf97b795114c}} 
+float \mbox{\hyperlink{class_cell_manager_a1c7d4f4799002779714caf97b795114c}{m\+\_\+f\+Cost}}
+\begin{DoxyCompactList}\small\item\em Cost of a cell. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a4646c59c088b6b8edafb9f40088976b5}\label{class_cell_manager_a4646c59c088b6b8edafb9f40088976b5}} 
+float \mbox{\hyperlink{class_cell_manager_a4646c59c088b6b8edafb9f40088976b5}{m\+\_\+f\+Dist\+Current\+To\+Start}}
+\begin{DoxyCompactList}\small\item\em Distance of the current cell from the start cell. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_ae515543daf0ae8d9838f8b481cd5ae05}\label{class_cell_manager_ae515543daf0ae8d9838f8b481cd5ae05}} 
+float {\bfseries m\+\_\+f\+Dist\+Current\+To\+Goal}
+\item 
+\mbox{\Hypertarget{class_cell_manager_a6d3b28289ad1655a7447ce26bb2d4cf3}\label{class_cell_manager_a6d3b28289ad1655a7447ce26bb2d4cf3}} 
+int \mbox{\hyperlink{class_cell_manager_a6d3b28289ad1655a7447ce26bb2d4cf3}{parent}}
+\begin{DoxyCompactList}\small\item\em Parent cell. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a067eeb6e400cfd443b9375ec0dad0186}\label{class_cell_manager_a067eeb6e400cfd443b9375ec0dad0186}} 
+int \mbox{\hyperlink{class_cell_manager_a067eeb6e400cfd443b9375ec0dad0186}{m\+\_\+i\+Row}}
+\begin{DoxyCompactList}\small\item\em Row. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cell_manager_a694ac6bd428aab0cff7355dda80468ad}\label{class_cell_manager_a694ac6bd428aab0cff7355dda80468ad}} 
+int \mbox{\hyperlink{class_cell_manager_a694ac6bd428aab0cff7355dda80468ad}{m\+\_\+i\+Column}}
+\begin{DoxyCompactList}\small\item\em Column. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_cell_manager_aa0f293fc17a96f4622e5f9d3bec0928f}\label{class_cell_manager_aa0f293fc17a96f4622e5f9d3bec0928f}} 
+\index{Cell\+Manager@{Cell\+Manager}!Cell\+Manager@{Cell\+Manager}}
+\index{Cell\+Manager@{Cell\+Manager}!Cell\+Manager@{Cell\+Manager}}
+\subsubsection{\texorpdfstring{Cell\+Manager()}{CellManager()}}
+{\footnotesize\ttfamily Cell\+Manager\+::\+Cell\+Manager (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{height,  }\item[{int}]{width,  }\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em x} & position \\
+\hline
+{\em y} & \\
+\hline
+{\em y} & position \\
+\hline
+{\em height} & \\
+\hline
+{\em height} & of the cell \\
+\hline
+{\em width} & \\
+\hline
+{\em width} & of the cell \\
+\hline
+{\em row} & \\
+\hline
+{\em rows} & \\
+\hline
+{\em column} & \\
+\hline
+{\em columns} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_cell_manager_a5483d8656d8ef20de0b88c3fdaa44b4c}\label{class_cell_manager_a5483d8656d8ef20de0b88c3fdaa44b4c}} 
+\index{Cell\+Manager@{Cell\+Manager}!Draw\+Cell@{Draw\+Cell}}
+\index{Draw\+Cell@{Draw\+Cell}!Cell\+Manager@{Cell\+Manager}}
+\subsubsection{\texorpdfstring{Draw\+Cell()}{DrawCell()}}
+{\footnotesize\ttfamily void Cell\+Manager\+::\+Draw\+Cell (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Target \&}]{target }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em target} & \\
+\hline
+{\em target} & to draw a cell to. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cell_manager_a51c6a0e10fecbe8a9e349574e3d1f69c}\label{class_cell_manager_a51c6a0e10fecbe8a9e349574e3d1f69c}} 
+\index{Cell\+Manager@{Cell\+Manager}!lower\+Outcome@{lower\+Outcome}}
+\index{lower\+Outcome@{lower\+Outcome}!Cell\+Manager@{Cell\+Manager}}
+\subsubsection{\texorpdfstring{lower\+Outcome()}{lowerOutcome()}}
+{\footnotesize\ttfamily int Cell\+Manager\+::lower\+Outcome (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_cell_manager}{Cell\+Manager}}}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Lower outcome? 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+{\em the} & other cell \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cell_manager_a6243c6c1c190fb440a5b6a0630999307}\label{class_cell_manager_a6243c6c1c190fb440a5b6a0630999307}} 
+\index{Cell\+Manager@{Cell\+Manager}!score@{score}}
+\index{score@{score}!Cell\+Manager@{Cell\+Manager}}
+\subsubsection{\texorpdfstring{score()}{score()}}
+{\footnotesize\ttfamily int Cell\+Manager\+::score (\begin{DoxyParamCaption}\item[{float}]{parent\+Geo\+Score,  }\item[{float}]{currentX,  }\item[{float}]{currentY,  }\item[{int}]{goalX,  }\item[{int}]{goalY }\end{DoxyParamCaption})}
+
+
+
+The score of the cell. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent\+Geo\+Score} & \\
+\hline
+{\em parent} & cell\textquotesingle{}s geographical score \\
+\hline
+{\em currentX} & \\
+\hline
+{\em current} & x position \\
+\hline
+{\em currentY} & \\
+\hline
+{\em current} & y position \\
+\hline
+{\em goalX} & \\
+\hline
+{\em goal} & x position \\
+\hline
+{\em goalY} & \\
+\hline
+{\em goal} & y position \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cell_manager_a54ad62f93aa0c271f3ebadbd45a9d941}\label{class_cell_manager_a54ad62f93aa0c271f3ebadbd45a9d941}} 
+\index{Cell\+Manager@{Cell\+Manager}!set\+Current@{set\+Current}}
+\index{set\+Current@{set\+Current}!Cell\+Manager@{Cell\+Manager}}
+\subsubsection{\texorpdfstring{set\+Current()}{setCurrent()}}
+{\footnotesize\ttfamily void Cell\+Manager\+::set\+Current (\begin{DoxyParamCaption}\item[{bool}]{b }\end{DoxyParamCaption})}
+
+
+
+Set the current. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+{\em is} & it current \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Cell\+Manager.\+h\item 
+Cell\+Manager.\+cpp\end{DoxyCompactItemize}

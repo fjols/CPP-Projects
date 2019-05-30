@@ -1,0 +1,45 @@
+\hypertarget{class_dumb_tank}{}\section{Dumb\+Tank Class Reference}
+\label{class_dumb_tank}\index{Dumb\+Tank@{Dumb\+Tank}}
+Inheritance diagram for Dumb\+Tank\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_dumb_tank}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_dumb_tank_af30f9ce47648428aa6589cb6e6a0490a}\label{class_dumb_tank_af30f9ce47648428aa6589cb6e6a0490a}} 
+void \mbox{\hyperlink{class_dumb_tank_af30f9ce47648428aa6589cb6e6a0490a}{move}} ()
+\begin{DoxyCompactList}\small\item\em Move the tank. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_a6d66330ab08b6730a12186ac71d794a0}\label{class_dumb_tank_a6d66330ab08b6730a12186ac71d794a0}} 
+void \mbox{\hyperlink{class_dumb_tank_a6d66330ab08b6730a12186ac71d794a0}{reset}} ()
+\begin{DoxyCompactList}\small\item\em Reset any variables you need to whent he tank has been shot. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_a2340b3de8f33e3019ab483d56243de5a}\label{class_dumb_tank_a2340b3de8f33e3019ab483d56243de5a}} 
+void \mbox{\hyperlink{class_dumb_tank_a2340b3de8f33e3019ab483d56243de5a}{collided}} ()
+\begin{DoxyCompactList}\small\item\em Called by the game object when the tank has collided. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_a06dd83683ff628421d6841a8ad8f1877}\label{class_dumb_tank_a06dd83683ff628421d6841a8ad8f1877}} 
+void \mbox{\hyperlink{class_dumb_tank_a06dd83683ff628421d6841a8ad8f1877}{mark\+Target}} (\mbox{\hyperlink{class_position}{Position}} p)
+\begin{DoxyCompactList}\small\item\em Called by the game object when a target (enemy building) comes within the tanks visible range. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_a6e285a834c2f65bc559c0f08133acc3e}\label{class_dumb_tank_a6e285a834c2f65bc559c0f08133acc3e}} 
+void \mbox{\hyperlink{class_dumb_tank_a6e285a834c2f65bc559c0f08133acc3e}{mark\+Enemy}} (\mbox{\hyperlink{class_position}{Position}} p)
+\begin{DoxyCompactList}\small\item\em Called by the game object when the enemy tank comes within the tanks visible range. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_ac2c8fe2a13fe009676580b33be241f59}\label{class_dumb_tank_ac2c8fe2a13fe009676580b33be241f59}} 
+void \mbox{\hyperlink{class_dumb_tank_ac2c8fe2a13fe009676580b33be241f59}{mark\+Base}} (\mbox{\hyperlink{class_position}{Position}} p)
+\begin{DoxyCompactList}\small\item\em Called by the game object when one of you own buildings comes within the tanks visible range. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_a1269c78542b1f504a388aa04fdecc4a8}\label{class_dumb_tank_a1269c78542b1f504a388aa04fdecc4a8}} 
+void \mbox{\hyperlink{class_dumb_tank_a1269c78542b1f504a388aa04fdecc4a8}{mark\+Shell}} (\mbox{\hyperlink{class_position}{Position}} p)
+\begin{DoxyCompactList}\small\item\em Called by the game object when enemy shell comes within the tanks visible range. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_ad3ee50f39f266ef72106c41d04f7062a}\label{class_dumb_tank_ad3ee50f39f266ef72106c41d04f7062a}} 
+bool \mbox{\hyperlink{class_dumb_tank_ad3ee50f39f266ef72106c41d04f7062a}{is\+Firing}} ()
+\begin{DoxyCompactList}\small\item\em Called by the game object each frame. When this function returns true (and ammo is availbe and loaded) the tank will fire a shell. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_dumb_tank_a5e79dbb66117f72fa22369b4e612cc9a}\label{class_dumb_tank_a5e79dbb66117f72fa22369b4e612cc9a}} 
+void {\bfseries score} (int this\+Score, int enemy\+Score)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+dumb\+Tank.\+h\item 
+dumb\+Tank.\+cpp\end{DoxyCompactItemize}
