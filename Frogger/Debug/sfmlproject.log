@@ -1,6 +1,0 @@
-﻿  main.cpp
-  Endzone.cpp
-  Generating Code...
-c:\users\charlie.charlie-san\desktop\sfmlproject\sfmlproject\sfmlproject\endzone.cpp(41): warning C4715: 'Endzone::CollisionWithPlayer': not all control paths return a value
-  sfmlproject.vcxproj -> C:\Users\Charlie.CHARLIE-SAN\Desktop\sfmlproject\sfmlproject\Debug\sfmlproject.exe
-  sfmlproject.vcxproj -> C:\Users\Charlie.CHARLIE-SAN\Desktop\sfmlproject\sfmlproject\Debug\sfmlproject.pdb (Partial PDB)
